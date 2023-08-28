@@ -416,7 +416,7 @@ input[type='search'] {
     max-width: 95%;
     height: auto;
     width: 520px;
-    max-height: 80%;
+    max-height: 100%;
     position: fixed;
     text-align: left;
     z-index: 100;
