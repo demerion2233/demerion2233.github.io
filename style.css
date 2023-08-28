@@ -438,7 +438,8 @@ input[type='search'] {
 }
 .modal.open {
     opacity: 1;
-    top: 30%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 .modal h3 {
     font-size: 1.4rem;
