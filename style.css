@@ -424,7 +424,7 @@ input[type='search'] {
     -moz-border-radius: 15px;
     border-radius: 15px;
     left: 50%;
-    top: -120%;
+    top: 50%;
     transform: translate(-50%, -50%);
     background: var(--c-modal-bg);
     color: var(--c-modal-text);
@@ -433,6 +433,8 @@ input[type='search'] {
     will-change: auto;
     transition: opacity 0.4s ease-in-out, top 0.6s;
     padding: 30px;
+    overflow: auto;
+    max-height: 80vh;
 }
 .modal.open {
     opacity: 1;
