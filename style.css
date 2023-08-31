@@ -416,6 +416,7 @@ input[type='search'] {
     max-width: 95%;
     height: auto;
     width: 520px;
+    max-height: 80%;
     position: fixed;
     text-align: left;
     z-index: 100;
@@ -423,7 +424,7 @@ input[type='search'] {
     -moz-border-radius: 15px;
     border-radius: 15px;
     left: 50%;
-    top: 50%;
+    top: -120%;
     transform: translate(-50%, -50%);
     background: var(--c-modal-bg);
     color: var(--c-modal-text);
@@ -432,13 +433,10 @@ input[type='search'] {
     will-change: auto;
     transition: opacity 0.4s ease-in-out, top 0.6s;
     padding: 30px;
-    overflow: auto;
-    
 }
 .modal.open {
     opacity: 1;
-    top: 50%;
-    
+    top: 30%;
 }
 .modal h3 {
     font-size: 1.4rem;
